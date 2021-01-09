@@ -8,6 +8,13 @@
 #print "Hello World"
 
 # assign "Hello World!" to a variable
-greeting = "Hello World!"
+# greeting = "Hello World!"
 
-puts greeting
+# puts greeting
+
+# define a method
+def say_hello(thing_to_say)
+  puts thing_to_say
+end
+
+say_hello("Hello World!")
