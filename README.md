@@ -1,6 +1,11 @@
 # Ruby - Official Website [www.ruby-lang.org](www.ruby-lang.org)
 
 ## Fundamentals
+To execute ruby code from the console
+
+`ruby <filename>`
+___
+
 To print to the console, 3 options
 * puts 
 * p
