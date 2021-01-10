@@ -21,4 +21,8 @@
 
 puts "Enter a number to multiply by 2"
 input = gets.chomp
-puts input.to_i * 2 # string concatenation
+puts input * 2 # string concatenation
+
+puts "Enter a number to multiply by 2"
+input = gets.chomp
+puts input.to_i * 2 # change the string to an integer
