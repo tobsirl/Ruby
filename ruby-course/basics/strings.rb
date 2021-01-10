@@ -15,6 +15,10 @@
 # p 10.to_s
 
 # Getting input from the user
-puts "What is your first name?"
-first_name = gets.chomp
-p "Hi #{first_name}, Welcome to ruby!"
+# puts "What is your first name?"
+# first_name = gets.chomp
+# p "Hi #{first_name}, Welcome to ruby!"
+
+puts "Enter a number to multiply by 2"
+input = gets.chomp
+puts input.to_i * 2 # string concatenation
