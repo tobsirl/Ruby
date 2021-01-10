@@ -19,6 +19,22 @@ p "Hello World"
 # print does not have a newline at the end
 print "Hello World"
 ```
+Assigning a value to a variable
+```rb
+# assign "Hello World!" to a variable
+greeting = "Hello World!"
+puts greeting
+```
+
+Defining a method
+```rb
+# define a method
+def say_hello(thing_to_say)
+  puts thing_to_say
+end
+
+say_hello "Hello World!"
+```
 
 
 # Resources 
