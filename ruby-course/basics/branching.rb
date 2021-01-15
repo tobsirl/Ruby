@@ -1,6 +1,7 @@
 # if/else
-if true
-# execute some code
+condition = false
+if condition
+  puts "hello"
 else
-# execute some other code
+  puts "bye"
 end
