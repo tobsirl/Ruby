@@ -42,7 +42,10 @@ p a.first
 # p a
 
 # join/split methods
-p a.join
-p b = a.join("-")
-p b.split
-p b.split("-")
+# p a.join
+# p b = a.join("-")
+# p b.split
+# p b.split("-")
+
+# %w
+p %w(my name is paul and ruby is amazing)
