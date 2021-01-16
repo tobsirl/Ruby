@@ -37,6 +37,12 @@ p a.first
 # p a.include?("Paul")
 
 # lifo with push and pop
-p a.push("new item")
-p b = a.pop
-p a
+# p a.push("new item")
+# p b = a.pop
+# p a
+
+# join/split methods
+p a.join
+p b = a.join("-")
+p b.split
+p b.split("-")
