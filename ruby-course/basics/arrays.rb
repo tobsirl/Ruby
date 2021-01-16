@@ -13,4 +13,7 @@ x = 1..100
 # p x.to_a
 
 # shuffle method 
-p x.to_a.shuffle
+p x.to_a.shuffle!
+# Using ! will mutate the caller
+p z = x.to_a.shuffle!
+p z
