@@ -9,5 +9,8 @@ p a.last
 
 # create a range
 x = 1..100
-p x.class
-p x.to_a
+# p x.class
+# p x.to_a
+
+# shuffle method 
+p x.to_a.shuffle
