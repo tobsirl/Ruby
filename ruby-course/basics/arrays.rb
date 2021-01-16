@@ -28,10 +28,15 @@ x = 1..100
 p a << 10
 p a.first
 # Add to the start
-p a.unshift("Paul")
+# p a.unshift("Paul")
 # Add to the end
-p a.append("Paul")
+# p a.append("Paul")
 # Unique elements
-p a.uniq
+# p a.uniq
 # Check for an element using include?
-p a.include?("Paul")
+# p a.include?("Paul")
+
+# lifo with push and pop
+p a.push("new item")
+p b = a.pop
+p a
