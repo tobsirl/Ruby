@@ -18,7 +18,18 @@ x = 1..100
 # p z = x.to_a.shuffle!
 # p z
 
-x = "a".."z"
-p x.to_a
-p y = x.to_a
-p y.length
+# working with letters
+# x = "a".."z"
+# p x.to_a
+# p y = x.to_a
+# p y.length
+
+# Adding an element to an array
+p a << 10
+p a.first
+# Add to the start
+p a.unshift("Paul")
+# Add to the end
+p a.append("Paul")
+# Unique elements
+p a.uniq
