@@ -33,3 +33,5 @@ p a.unshift("Paul")
 p a.append("Paul")
 # Unique elements
 p a.uniq
+# Check for an element using include?
+p a.include?("Paul")
