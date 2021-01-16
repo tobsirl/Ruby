@@ -48,4 +48,7 @@ p a.first
 # p b.split("-")
 
 # %w
-p %w(my name is paul and ruby is amazing)
+p z = %w(my name is paul and ruby is amazing)
+
+# iterators
+p z.each { |word| print word + " " }
