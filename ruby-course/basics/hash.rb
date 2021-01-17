@@ -1,4 +1,4 @@
-# sample_hash = {'a' => 1, 'b' => 2, 'c' => 3}
+sample_hash = {'a' => 1, 'b' => 2, 'c' => 3}
 # my_details = {'name' => 'paul', 'favcolor' => 'red'}
 # p my_details['favcolor']
 
@@ -8,3 +8,7 @@
 p another_hash = {a: 1, b: 2, c: 3}
 # Access using square brackets
 p another_hash[:a]
+
+# Access only the keys and values
+p sample_hash.keys
+p sample_hash.values
