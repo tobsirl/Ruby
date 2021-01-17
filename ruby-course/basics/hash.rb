@@ -10,10 +10,14 @@ p another_hash = {a: 1, b: 2, c: 3}
 p another_hash[:a]
 
 # Access only the keys and values
-p sample_hash.keys
-p sample_hash.values
+# p sample_hash.keys
+# p sample_hash.values
 
 # Iterate over an hash
-p sample_hash.each do |key, value|
+sample_hash.each do |key, value|
+  puts "The class for key is #{key.class} and the value is #{value.class}"
+end
+
+another_hash.each do |key, value|
   puts "The class for key is #{key.class} and the value is #{value.class}"
 end
