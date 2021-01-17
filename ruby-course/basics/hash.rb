@@ -28,3 +28,6 @@ myhash[:e] = "Paul"
 
 # changing a value
 myhash[:c] = "ruby"
+
+# iterate through a hash (shorthand)
+p myhash.each { |some_key, some_value| puts "The key is #{some_key} and the value is #{some_value}"}
