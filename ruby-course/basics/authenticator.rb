@@ -7,6 +7,14 @@ users = [
   { username: "heisenberg", password: "password5" }
 ]
 
+def auth_user(username, password, list_of_users)
+  list_of_users.each do |user_record|
+    if user_record[:username] == username && user_record[:password]
+      return user_record
+    end
+  end
+  "Credentials were not correct"
+end
 
 
 # program execution flow
