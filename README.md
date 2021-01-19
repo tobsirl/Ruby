@@ -45,6 +45,11 @@ def my_name_is
   # and my code is here
   # default tab is two spaces
 end
+
+# Class names use Camel Case
+class SomeClass
+
+end
 ```
 
 # Resources 
