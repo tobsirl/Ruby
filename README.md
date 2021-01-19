@@ -53,3 +53,7 @@ end
 ```
 
 # Resources 
+## Style Guides
+[Style Guide - rubocop-hq](https://github.com/rubocop-hq/ruby-style-guide)
+
+[Style Guide - bbatsov](https://github.com/bbatsov/ruby-style-guide)
