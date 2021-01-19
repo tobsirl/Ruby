@@ -35,6 +35,16 @@ end
 
 say_hello "Hello World!"
 ```
+## Style Guide in Ruby
+```ruby
+this_is_snake_case
 
+also_snake_case
+
+def my_name_is
+  # and my code is here
+  # default tab is two spaces
+end
+```
 
 # Resources 
