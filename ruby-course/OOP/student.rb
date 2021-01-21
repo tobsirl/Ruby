@@ -1,5 +1,6 @@
 class Student
-  attr_accessor :first_name, :last_name, :email, :username
+  attr_accessor :first_name, :last_name, :email
+  attr_reader :username
 
   @first_name
   @last_name
@@ -7,6 +8,9 @@ class Student
   @username
   @password
 
+  def set_username
+    @username = "Toby"
+  end
   # Setter
   # def first_name=(name)
   #   @first_name = name
@@ -36,7 +40,8 @@ paul = Student.new
 paul.first_name = "Paul"
 paul.last_name = "Tobin"
 paul.email = "tobs@gmail.com"
-paul.username = "Toby"
+paul.set_username
+
 puts paul.first_name
 puts paul.last_name
 puts paul.email
