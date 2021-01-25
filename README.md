@@ -66,3 +66,5 @@ end
 [Official Site](https://rubyonrails.org/)
 
 [Guides](https://guides.rubyonrails.org/)
+
+[GEMS Repository](https://rubygems.org/)
