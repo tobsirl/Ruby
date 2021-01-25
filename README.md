@@ -57,3 +57,12 @@ end
 [Style Guide - rubocop-hq](https://github.com/rubocop-hq/ruby-style-guide)
 
 [Style Guide - bbatsov](https://github.com/bbatsov/ruby-style-guide)
+
+
+# Ruby on Rails
+
+
+## Resources
+[Official Site](https://rubyonrails.org/)
+
+[Guides](https://guides.rubyonrails.org/)
