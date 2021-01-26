@@ -60,6 +60,7 @@ end
 
 
 # Ruby on Rails
+Setup a Rails application
 
 
 ## Resources
